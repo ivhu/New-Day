@@ -6,4 +6,4 @@ Pinning a note allows it to be edited anytime.
 
 Created to combat my specific habit of haphazardly creating multiple notes a day instead of filling up a single note...
 
-Demo: ivhu.github.io/new-day
+Demo: https://ivhu.github.io/new-day/

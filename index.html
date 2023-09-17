@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>New Day</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item" id="sidebar">
+          <div class="sidebar-header">
+            <div class="add-note">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+            </div>
+          </div>
+          <div class="sidebar-body">
+            <div class="notes-row sidebar-row">
+              <div class="notes-tag tag">
+                <div class="notes-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-200h560v-367L567-760H200v560Zm0 80q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h400l240 240v400q0 33-23.5 56.5T760-120H200Zm80-160h400v-80H280v80Zm0-160h400v-80H280v80Zm0-160h280v-80H280v80Zm-80 400v-560 560Z"/></svg>
+                </div>
+                <div class="notes-category">Notes</div>
+              </div>
+              <div class="notes-quantity">0</div>
+            </div>
+            <div class="pinned-row sidebar-row">
+              <div class="pinned-tag tag">
+                <div class="pinned-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m640-480 80 80v80H520v240l-40 40-40-40v-240H240v-80l80-80v-280h-40v-80h400v80h-40v280Zm-286 80h252l-46-46v-314H400v314l-46 46Zm126 0Z"/></svg>
+                </div>
+                <div class="pinned-category">Pinned</div>
+              </div>
+              <div class="pinned-quantity">0</div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item" id="preview">
+          <div class="preview-header">
+            <div class="tag">
+              <div class="current-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-200h560v-367L567-760H200v560Zm0 80q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h400l240 240v400q0 33-23.5 56.5T760-120H200Zm80-160h400v-80H280v80Zm0-160h400v-80H280v80Zm0-160h280v-80H280v80Zm-80 400v-560 560Z"/></svg>
+              </div>
+              <div class="current-category">Notes</div>
+            </div>
+            <div class="searchbar-container">
+              <input type="text" class="searchbar" placeholder="Search...">
+            </div>
+          </div>
+          <div class="preview-body">
+          </div>
+        </div>
+        <div class="grid-item" id="display">
+          <div class="display-header">
+            <div class="title-date-container">
+              <input class="note-title" maxlength="85"></input>
+              <div class="note-date"></div>
+            </div>
+              <div class="pin">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path id="pinBtn" d="m640-480 80 80v80H520v240l-40 40-40-40v-240H240v-80l80-80v-280h-40v-80h400v80h-40v280Zm-286 80h252l-46-46v-314H400v314l-46 46Zm126 0Z"/></svg>
+              </div>
+          </div>
+          <div class="display-body">
+            <textarea class="note-content"></textarea>
+          </div>
+        </div>
+    </div>
+    <footer><div class="logo">new day</div></footer>
+</body>
+</html>
